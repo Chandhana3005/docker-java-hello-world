@@ -3,9 +3,6 @@ kind: Service
 metadata:
     name: HelloWorld
 spec:
-Container:
-    name : HelloWorld
-    image: ubuntu-latest
     type: LoadBalancer
     ports:
     - port: 80 
